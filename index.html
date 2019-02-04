@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sum All Odd Fibonacci Numbers</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="sum-fib.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>sum of all odd Fibonacci Number</h1>
+    <p>
+      Insert a number to recieve the sum of all odd numbers less than or equal to
+      the number you entered that is in the Fibonacci Sequence
+    </p>
+  </header>
+  <section class="content">
+
+    <h3 class="hidden">Numbers used</h3>
+    <ul class="content__ul" id="listNumbersUsed"></ul>
+
+    <p id="sumOfNumbers"></p>
+  </section>
+
+  <form class="form" class="form">
+    <label class="form__label" for="number">number</label>
+    <input class="form__input" type="number" id="number" name="number" placeholder="insert a number">
+    <button class="form__button">send</button>
+  </form>
+</body>
+</html>
